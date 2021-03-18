@@ -1,34 +1,68 @@
-# opPortfolio
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/hriship/deploys)
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FHrishi1999%2FopPortfolio)
+## Available Scripts
 
-![opPortfolio](/images/portfolio.gif)
+In the project directory, you can run:
 
-### A clean portfolio template. (Readme will be updated soon)
+### `npm start`
 
-# Sections
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-# How To Use
+### `npm test`
 
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# How Do I Customize
+### `npm run build`
 
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
-- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
-- Make sure you replace Google Analytics tracking ID in `index.html` and change other properties like name, URL etc.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# References
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
